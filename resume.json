@@ -1,0 +1,181 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/schema.json",
+  "basics": {
+    "name": "Achille Lacoin",
+    "label": "Software Engineer",
+    "image": "https://media.licdn.com/dms/image/C5603AQFqhFmSCOuLvQ/profile-displayphoto-shrink_400_400/0/1550149475259?e=1681948800&v=beta&t=BLgW8vt3wM9KcyUsYpcE9d830Z0UUwAj8sJ5eNFD4Ig",
+    "email": "achille.lacoin@gmail.com",
+    "summary": "Software engineer with a strong interest in API design.",
+    "location": {
+      "city": "Paris",
+      "countryCode": "FR"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "url": "https://www.linkedin.com/in/achille-lacoin-90713114b/"
+      },
+      {
+        "network": "Twitter",
+        "username": "pomdtrr",
+        "url": "https://twitter.com/pomdtrr"
+      },
+      {
+        "network": "GitHub",
+        "username": "pomdtr",
+        "url": "https://github.com/pomdtr"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Dailymotion",
+      "position": "Data Engineer",
+      "location": "Paris",
+      "url": "https://dailymotion.com",
+      "startDate": "2020-09-01",
+      "endDate": "2022-11-01",
+      "summary": "A Video Platform with 300 million unique visitors per month",
+      "highlights": [
+        "Built a dependency resolver for airflow, allowing backfill accross multiple clusters",
+        "Worked on an IAB categorization pipeline that piped each uploaded video to a machine learning model",
+        "Contenairized the whole recommendation pipeline, and migrated it to Kubernetes Engine",
+        "Created a high-performance golang api backed by a real-time database for a dashboarding tool used by dailymotion creators"
+      ],
+      "pinned": true
+    },
+    {
+      "name": "Dailymotion",
+      "position": "Data Engineer Intern",
+      "location": "Paris",
+      "url": "https://dailymotion.com",
+      "startDate": "2020-03-01",
+      "endDate": "2020-08-01"
+    }
+  ],
+  "education": [
+    {
+      "institution": "Insa Rouen",
+      "area": "General Engineering",
+      "url": "https://www.insa-rouen.fr/",
+      "studyType": "Software Engineering",
+      "startDate": "2017-09-01",
+      "endDate": "2020-07-01"
+    }
+  ],
+  "awards": [],
+  "publications": [
+    {
+      "name": "How to debug Bubble Tea applications in Visual Studio Code",
+      "publisher": "Dev.to",
+      "releaseDate": "2022-12-26",
+      "url": "https://dev.to/pomdtr/how-to-debug-bubble-tea-applications-in-visual-studio-code-50jp",
+      "summary": "I did'nt find any documentation BubbleTea debugging, so I wrote a blog post to share how I achieved it.",
+      "pinned": true
+    },
+    {
+      "name": "Getting started with Data Lineage",
+      "publisher": "Medium",
+      "summary": "A summary of what we've worked on during my first internship at Dailymotion, written by my mentor",
+      "releaseDate": "2019-08-09",
+      "url": "https://medium.com/dailymotion/getting-started-with-data-lineage-6307b2b429b3",
+      "pinned": true
+    }
+  ],
+  "skills": [
+    {
+      "name": "Python",
+      "level": "Experienced",
+      "keywords": [
+        "FastAPI",
+        "Airflow",
+        "Apache Beam"
+      ]
+    },
+    {
+      "name": "Go",
+      "level": "Intermediate",
+      "keywords": [
+        "Gorilla",
+        "Bubble Tea",
+        "Cobra"
+      ]
+    },
+    {
+      "name": "Docker / K8S",
+      "level": "Familiar"
+    },
+    {
+      "name": "Javascript",
+      "level": "Familiar",
+      "keywords": [
+        "NodeJS",
+        "React",
+        "Typescript",
+        "Electron"
+      ]
+    },
+    {
+      "name": "GCP",
+      "level": "Experienced",
+      "keywords": [
+        "Dataflow",
+        "Kubernetes Engine"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "French",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Fluent"
+    }
+  ],
+  "interests": [],
+  "references": [
+    {
+      "name": "Bibiana Passadore"
+    },
+    {
+      "name": "Paolo Genissel"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Sunbeam",
+      "description": "Generates complexes TUI from simple scripts written in any language",
+      "type": "CLI",
+      "startDate": "2022-09-01",
+      "entity": "Open Source",
+      "url": "https://pomdtr.github.io/sunbeam/",
+      "highlights": [
+        "Supports all platforms, can be extended with any language",
+        "Flexible extension system based on git",
+        "Can run as an headless http server"
+      ],
+      "pinned": true
+    },
+    {
+      "name": "Excalidraw Extension",
+      "description": "Edit Excalidraw diagrams, right from VS Code",
+      "startDate": "2021-04-01",
+      "url": "https://marketplace.visualstudio.com/items?itemName=pomdtr.excalidraw-editor",
+      "type": "plugin",
+      "entity": "Open Source",
+      "highlights": [
+        "Adopted as an official product by the excalidraw organization",
+        "Can edit diagrams as raw png/svg files",
+        "More than 30K downloads in VS Code marketplace + Open VSX"
+      ],
+      "pinned": true
+    }
+  ],
+  "meta": {
+    "version": "v1.0.0",
+    "theme": "github",
+    "lastModified": "2022-02-15"
+  }
+}
