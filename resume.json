@@ -3,7 +3,7 @@
   "basics": {
     "name": "Achille Lacoin",
     "label": "Software Engineer",
-    "image": "https://media.licdn.com/dms/image/C5603AQFqhFmSCOuLvQ/profile-displayphoto-shrink_400_400/0/1550149475259?e=1704326400&v=beta&t=WE4uuLgWT6TbZPH3PdPNX5e7bI10H0MwJruRj_uTukA",
+    "image": "https://raw.githubusercontent.com/pomdtr/resume/main/photo.jpeg",
     "email": "achille.lacoin@gmail.com",
     "summary": "Software engineer with a strong interest in API design.",
     "location": {
@@ -28,6 +28,21 @@
     ]
   },
   "work": [
+    {
+      "name": "Deta",
+      "position": "Software Engineer",
+      "location": "Berlin",
+      "url": "https://deta.space",
+      "startDate": "2023-03-01",
+      "endDate": "2023-09-01",
+      "summary": "Helped build the Internet Computer",
+      "highlights": [
+        "Overhauled the local development experience in the space CLI",
+        "Prototyped an innovative command palette",
+        "Improved build pipeline compatibility and feature set",
+        "Contributed to the specification of horizon"
+      ]
+    },
     {
       "name": "Dailymotion",
       "position": "Data Engineer",
